@@ -1,0 +1,22 @@
+.header__wrapper {
+    padding: 16px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: block;
+}
+
+.header__text {
+    display: block; 
+}
+
+.header__link {
+    display: block;
+}
+
+.header__tel {
+    display: block;
+}
