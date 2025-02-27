@@ -4,8 +4,8 @@
 
 .hero__heading {
   font-family: "Ardeco", "Arial", sans-serif;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 70px;
+  line-height: 70px;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
@@ -31,4 +31,9 @@
 
 .hero--apartments .hero__image {
   margin: 32px 0 0;
+}
+
+.hero--apartments .hero__heading {
+  font-size: 64px;
+  line-height: 60px;
 }

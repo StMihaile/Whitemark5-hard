@@ -1,8 +1,7 @@
 .header__wrapper {
     padding: 16px 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 204px 1fr;
 }
 
 .header__left {
@@ -15,6 +14,7 @@
 .header__right {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     gap: 40px;
     align-items: center;
 }
@@ -41,6 +41,7 @@
 }
 
 .header__link {
+
     width: 165px;
     border: 2px solid #FFFFFF;
     border-radius: 60px;
@@ -51,4 +52,6 @@
 
 .header__tel {
     display: block;
+    font-size: 18px;
+    line-height: 24px;
 }
