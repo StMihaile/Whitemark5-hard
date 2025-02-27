@@ -26,3 +26,15 @@
   line-height: 24px;
   text-transform: uppercase;
 }
+
+.benefit--round-half {
+  border-radius: 180px 180px 0 0;
+}
+
+.benefit--pond {
+  background-image: url("../../images/pond.jpg");
+}
+
+.benefit--fasade {
+  background-image: url("../../images/fasade.jpg");
+}

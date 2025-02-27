@@ -8,9 +8,27 @@
   line-height: 64px;
   font-weight: 400;
   text-transform: uppercase;
+  text-align: center;
+  margin: 0;
 }
 
 .hero__image {
   margin: 48px 0 0;
   width: 100%;
+}
+
+.hero__text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  width: 700px;
+  margin: 24px auto;
+}
+
+.hero--apartments {
+  padding: 80px 0 0;
+}
+
+.hero--apartments .hero__image {
+  margin: 32px 0 0;
 }

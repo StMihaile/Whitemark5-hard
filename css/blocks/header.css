@@ -5,16 +5,48 @@
     justify-content: space-between;
 }
 
+.header__left {
+    display: flex;
+    flex-direction: row;
+    gap: 142px;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.header__user {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
 .header__logo {
     display: block;
 }
 
 .header__text {
-    display: block; 
+    display: block;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
 }
 
 .header__link {
-    display: block;
+    width: 165px;
+    border: 2px solid #FFFFFF;
+    border-radius: 60px;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 12px 20px;
 }
 
 .header__tel {
